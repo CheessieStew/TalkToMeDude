@@ -1,0 +1,288 @@
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"NOT IMPLEMENTED"}
+{"status":"NOT IMPLEMENTED"}
+{"status":"NOT IMPLEMENTED"}
+{"status":"NOT IMPLEMENTED"}
+{"status":"NOT IMPLEMENTED"}
+{"status":"NOT IMPLEMENTED"}
+{"status":"NOT IMPLEMENTED"}
+{"status":"NOT IMPLEMENTED"}
+{"status":"NOT IMPLEMENTED"}
+{"status":"NOT IMPLEMENTED"}
+{"status":"NOT IMPLEMENTED"}
+{"status":"NOT IMPLEMENTED"}
+{"status":"NOT IMPLEMENTED"}
+{"status":"NOT IMPLEMENTED"}
+{"status":"NOT IMPLEMENTED"}
+{"status":"NOT IMPLEMENTED"}
+{"status":"NOT IMPLEMENTED"}
+{"status":"NOT IMPLEMENTED"}
+{"status":"NOT IMPLEMENTED"}
+{"status":"NOT IMPLEMENTED"}
+{"status":"NOT IMPLEMENTED"}
+{"status":"NOT IMPLEMENTED"}
+{"status":"NOT IMPLEMENTED"}
+{"status":"NOT IMPLEMENTED"}
+{"status":"NOT IMPLEMENTED"}
+{"status":"NOT IMPLEMENTED"}
+{"status":"NOT IMPLEMENTED"}
+{"status":"NOT IMPLEMENTED"}
+{"status":"NOT IMPLEMENTED"}
+{"status":"NOT IMPLEMENTED"}
+{"status":"NOT IMPLEMENTED"}
+{"status":"NOT IMPLEMENTED"}
+{"status":"NOT IMPLEMENTED"}
+{"status":"NOT IMPLEMENTED"}
+{"status":"NOT IMPLEMENTED"}
+{"status":"NOT IMPLEMENTED"}
+{"status":"NOT IMPLEMENTED"}
+{"status":"NOT IMPLEMENTED"}
+{"status":"NOT IMPLEMENTED"}
+{"status":"NOT IMPLEMENTED"}
+{"status":"NOT IMPLEMENTED"}
+{"status":"NOT IMPLEMENTED"}
+{"status":"NOT IMPLEMENTED"}
+{"status":"NOT IMPLEMENTED"}
+{"status":"NOT IMPLEMENTED"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK","data":[{"login":"usr15","talk":"talk#u15#t0","start_timestamp":"2017-8-1 0:15:0","title":"title#u15#t0","room":"0"},{"login":"usr15","talk":"talk#u15#t2","start_timestamp":"2017-8-1 2:15:0","title":"title#u15#t2","room":"2"},{"login":"usr15","talk":"talk#u15#t4","start_timestamp":"2017-8-1 4:15:0","title":"title#u15#t4","room":"4"}]}
+{"status":"OK","data":[{"talk":"talk#u15#t0","start_timestamp":"2017-8-1 0:15:0","title":"title#u15#t0","room":"0"},{"talk":"talk#u15#t1","start_timestamp":"2017-8-1 1:15:0","title":"title#u15#t1","room":"1"},{"talk":"talk#u15#t2","start_timestamp":"2017-8-1 2:15:0","title":"title#u15#t2","room":"2"},{"talk":"talk#u15#t3","start_timestamp":"2017-8-1 3:15:0","title":"title#u15#t3","room":"3"},{"talk":"talk#u15#t4","start_timestamp":"2017-8-1 4:15:0","title":"title#u15#t4","room":"4"},{"talk":"talk#u15#t5","start_timestamp":"2017-8-1 5:15:0","title":"title#u15#t5","room":"5"}]}
+{"status":"OK","data":[{"talk":"talk#u15#t3","start_timestamp":"2017-8-1 3:15:0","title":"title#u15#t3","room":"3"},{"talk":"talk#u15#t2","start_timestamp":"2017-8-1 2:15:0","title":"title#u15#t2","room":"2"}]}
+{"status":"OK","data":[{"talk":"talk#u15#t0","start_timestamp":"2017-8-1 0:15:0","title":"title#u15#t0","room":"0"},{"talk":"talk#u15#t1","start_timestamp":"2017-8-1 1:15:0","title":"title#u15#t1","room":"1"}]}
+{"status":"OK","data":[{"talk":"talk#u15#t3","start_timestamp":"2017-8-1 3:15:0","title":"title#u15#t3","room":"3"},{"talk":"talk#u15#t2","start_timestamp":"2017-8-1 2:15:0","title":"title#u15#t2","room":"2"},{"talk":"talk#u15#t0","start_timestamp":"2017-8-1 0:15:0","title":"title#u15#t0","room":"0"},{"talk":"talk#u15#t1","start_timestamp":"2017-8-1 1:15:0","title":"title#u15#t1","room":"1"},{"talk":"talk#u15#t4","start_timestamp":"2017-8-1 4:15:0","title":"title#u15#t4","room":"4"},{"talk":"talk#u15#t5","start_timestamp":"2017-8-1 5:15:0","title":"title#u15#t5","room":"5"}]}
+{"status":"OK","data":[{"talk":"talk#u15#t0","start_timestamp":"2017-8-1 0:15:0","title":"title#u15#t0","room":"0"},{"talk":"talk#u15#t1","start_timestamp":"2017-8-1 1:15:0","title":"title#u15#t1","room":"1"},{"talk":"talk#u15#t2","start_timestamp":"2017-8-1 2:15:0","title":"title#u15#t2","room":"2"},{"talk":"talk#u15#t3","start_timestamp":"2017-8-1 3:15:0","title":"title#u15#t3","room":"3"},{"talk":"talk#u15#t4","start_timestamp":"2017-8-1 4:15:0","title":"title#u15#t4","room":"4"},{"talk":"talk#u15#t5","start_timestamp":"2017-8-1 5:15:0","title":"title#u15#t5","room":"5"}]}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK"}
+{"status":"OK","data":[{"talk":"talk#u15#t4","start_timestamp":"2017-8-1 4:15:0","title":"title#u15#t4","room":"4"},{"talk":"talk#u15#t5","start_timestamp":"2017-8-1 5:15:0","title":"title#u15#t5","room":"5"}]}
+{"status":"OK","data":[{"talk":"talk#u15#t0","start_timestamp":"2017-8-1 0:15:0","title":"title#u15#t0","room":"0"},{"talk":"talk#u15#t1","start_timestamp":"2017-8-1 1:15:0","title":"title#u15#t1","room":"1"},{"talk":"talk#u15#t4","start_timestamp":"2017-8-1 4:15:0","title":"title#u15#t4","room":"4"}]}
+{"status":"OK","data":[{"talk":"ptalk#u1#t0","speakerlogin":"usr1","start_timestamp":"2017-1-1 5:15:0","title":"title#u1#t0"},{"talk":"ptalk#u1#t2","speakerlogin":"usr1","start_timestamp":"2017-1-1 7:15:0","title":"title#u1#t2"},{"talk":"ptalk#u1#t4","speakerlogin":"usr1","start_timestamp":"2017-1-1 9:15:0","title":"title#u1#t4"},{"talk":"ptalk#u1#t6","speakerlogin":"usr1","start_timestamp":"2017-1-1 11:15:0","title":"title#u1#t6"},{"talk":"ptalk#u1#t8","speakerlogin":"usr1","start_timestamp":"2017-1-1 13:15:0","title":"title#u1#t8"},{"talk":"ptalk#u1#t10","speakerlogin":"usr1","start_timestamp":"2017-1-1 15:15:0","title":"title#u1#t10"},{"talk":"ptalk#u1#t12","speakerlogin":"usr1","start_timestamp":"2017-1-1 17:15:0","title":"title#u1#t12"},{"talk":"ptalk#u1#t14","speakerlogin":"usr1","start_timestamp":"2017-1-1 19:15:0","title":"title#u1#t14"},{"talk":"ptalk#u1#t16","speakerlogin":"usr1","start_timestamp":"2017-1-1 21:15:0","title":"title#u1#t16"},{"talk":"ptalk#u1#t18","speakerlogin":"usr1","start_timestamp":"2017-1-1 23:15:0","title":"title#u1#t18"}]}
+{"status":"OK","data":[{"talk":"ptalk#u1#t3","speakerlogin":"usr1","start_timestamp":"2017-1-1 8:15:0","title":"title#u1#t3"},{"talk":"ptalk#u1#t9","speakerlogin":"usr1","start_timestamp":"2017-1-1 14:15:0","title":"title#u1#t9"},{"talk":"ptalk#u1#t15","speakerlogin":"usr1","start_timestamp":"2017-1-1 20:15:0","title":"title#u1#t15"}]}
+{"status":"NOT IMPLEMENTED"}
+{"status":"NOT IMPLEMENTED"}
+{"status":"NOT IMPLEMENTED"}
+{"status":"NOT IMPLEMENTED"}
+{"status":"NOT IMPLEMENTED"}
+{"status":"NOT IMPLEMENTED"}
+{"status":"NOT IMPLEMENTED"}
+{"status":"NOT IMPLEMENTED"}
+{"status":"NOT IMPLEMENTED"}
+{"status":"NOT IMPLEMENTED"}
+{"status":"ERROR","message":"User is not an organizer."}
+{"status":"ERROR","message":"User is not an organizer."}
+{"status":"OK","data":[]}
+{"status":"ERROR","message":"Specified event was not found"}
+{"status":"ERROR","message":"User was not authorized."}
+{"status":"ERROR","message":"String was not recognized as a valid DateTime."}

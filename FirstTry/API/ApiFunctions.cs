@@ -1,9 +1,7 @@
 using System;
 using System.Collections.Generic;
-using System.Diagnostics;
 using System.IO;
 using System.Linq;
-using System.Reflection.Metadata;
 using FirstTry.IO;
 using FirstTry.Utils;
 using Newtonsoft.Json.Linq;
@@ -129,9 +127,11 @@ namespace FirstTry.API
         {
             try
             {
+                if (!c.IsOpen)
+                    return false;
                 var q = c.Command("select count(*) from pg_tables where tablename = 'talk';").ExecuteScalar();
                 int init;
-                int.TryParse(q.ToString(), out init);
+                int.TryParse(q?.ToString() ?? "", out init);
                 if (init == 1)
                     return true;
                 Log($"database needs initialization");

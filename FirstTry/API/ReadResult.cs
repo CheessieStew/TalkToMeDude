@@ -1,13 +1,7 @@
 using System;
-using System.Collections.Generic;
 using System.Data.Common;
 using System.Linq;
-using System.Xml.Linq;
-using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
-using Newtonsoft.Json.Schema;
-using Npgsql;
-using Npgsql.Logging;
 
 namespace FirstTry.API
 {

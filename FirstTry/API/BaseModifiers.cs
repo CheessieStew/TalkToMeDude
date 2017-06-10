@@ -12,7 +12,7 @@ namespace FirstTry.API
         private static FunctionResult Organizer(Connection c, JToken call)
         {
             Log("///Organizer function///");
-            if (c == null)
+            if (c == null || !c.IsOpen)
                 return FunctionResult.ConnectionError();
             var secret = call["secret"].SafeToObject<string>();
             var newlogin = call["newlogin"].SafeToObject<string>();
@@ -46,7 +46,7 @@ namespace FirstTry.API
         private static FunctionResult Event(Connection c, JToken call)
         {
             Log("///Event function///");
-            if (c == null)
+            if (c == null || !c.IsOpen)
                 return FunctionResult.ConnectionError();
             var login = call["login"].SafeToObject<string>();
             var password = call["password"].SafeToObject<string>();
@@ -84,7 +84,7 @@ namespace FirstTry.API
             nowego uczestnika, <newlogin> jest unikalny
             */
             Log("///User function///");
-            if (c == null)
+            if (c == null || !c.IsOpen)
                 return FunctionResult.ConnectionError();
             var login = call["login"].SafeToObject<string>();
             var password = call["password"].SafeToObject<string>();
@@ -121,7 +121,7 @@ namespace FirstTry.API
                że referat nie jest przydzielony do jakiegokolwiek wydarzenia
             */
             Log("///Talk function///");
-            if (c == null)
+            if (c == null || !c.IsOpen)
                 return FunctionResult.ConnectionError();
             var login = call["login"].SafeToObject<string>();
             var password = call["password"].SafeToObject<string>();
@@ -214,7 +214,7 @@ namespace FirstTry.API
             (*U) register_user_for_event <login> <password> <eventname> // rejestracja uczestnika <login> na wydarzenie <eventname>
             */
             Log("///RegisterUserForEvent function///");
-            if (c == null)
+            if (c == null || !c.IsOpen)
                 return FunctionResult.ConnectionError();
             var login = call["login"].SafeToObject<string>();
             var password = call["password"].SafeToObject<string>();
@@ -261,7 +261,7 @@ namespace FirstTry.API
             //(*U) attendance <login> <password> <talk> // odnotowanie faktycznej obecności uczestnika <login> na referacie <talk>
 
             Log("///Attendance function///");
-            if (c == null)
+            if (c == null || !c.IsOpen)
                 return FunctionResult.ConnectionError();
             var login = call["login"].SafeToObject<string>();
             var password = call["password"].SafeToObject<string>();
@@ -309,7 +309,7 @@ namespace FirstTry.API
             //(*U) evaluation <login> <password> <talk> <rating> // ocena referatu <talk> w skali 0-10 przez uczestnika <login>
 
             Log("///Evaluation function///");
-            if (c == null)
+            if (c == null || !c.IsOpen)
                 return FunctionResult.ConnectionError();
             var login = call["login"].SafeToObject<string>();
             var password = call["password"].SafeToObject<string>();
@@ -363,7 +363,7 @@ namespace FirstTry.API
                  <talk> - unikalny identyfikator referatu
             */
             Log("///proposal function///");
-            if (c == null)
+            if (c == null || !c.IsOpen)
                 return FunctionResult.ConnectionError();
             var login = call["login"].SafeToObject<string>();
             var password = call["password"].SafeToObject<string>();
@@ -409,7 +409,7 @@ namespace FirstTry.API
                 (O) reject <login> <password> <talk> // usuwa referat spontaniczny <talk> z listy zaproponowanych,
             */
             Log("///Reject function///");
-            if (c == null)
+            if (c == null || !c.IsOpen)
                 return FunctionResult.ConnectionError();
             var login = call["login"].SafeToObject<string>();
             var password = call["password"].SafeToObject<string>();

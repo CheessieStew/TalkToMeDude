@@ -21,7 +21,7 @@ namespace FirstTry.API
                <login> <talk> <start_timestamp> <title> <room>            
             */
             Log("///UserPlan function///");
-            if (c == null)
+            if (c == null || !c.IsOpen)
                 return FunctionResult.ConnectionError();
             
             var login = call["login"].SafeToObject<string>();
@@ -64,7 +64,7 @@ namespace FirstTry.API
                 //  <talk> <start_timestamp> <title> <room>      
             */
             Log("///DayPlan function///");
-            if (c == null)
+            if (c == null || !c.IsOpen)
                 return FunctionResult.ConnectionError();
             
             var timestr = call["timestamp"].SafeToObject<string>();
@@ -107,7 +107,7 @@ namespace FirstTry.API
             
             
             Log("///BestTalks function///");
-            if (c == null)
+            if (c == null || !c.IsOpen)
                 return FunctionResult.ConnectionError();
             
             var startstr = call["start_timestamp"].SafeToObject<string>();
@@ -159,7 +159,7 @@ namespace FirstTry.API
         //  <talk> <start_timestamp> <title> <room>     
             */
             Log("///MostPopularTalks function///");
-            if (c == null)
+            if (c == null || !c.IsOpen)
                 return FunctionResult.ConnectionError();
             
             var startstr = call["start_timestamp"].SafeToObject<string>();
@@ -203,7 +203,7 @@ namespace FirstTry.API
                 //  <talk> <start_timestamp> <title> <room>         
             */
             Log("///AttendedTalks function///");
-            if (c == null)
+            if (c == null || !c.IsOpen)
                 return FunctionResult.ConnectionError();
             
             var login = call["login"].SafeToObject<string>();
@@ -248,7 +248,7 @@ namespace FirstTry.API
 
             */
             Log("///AbandonedTalks function///");
-            if (c == null)
+            if (c == null || !c.IsOpen)
                 return FunctionResult.ConnectionError();
             
             var login = call["login"].SafeToObject<string>();
@@ -307,7 +307,7 @@ namespace FirstTry.API
                 //  <talk> <speakerlogin> <start_timestamp> <title>        
             */
             Log("///RejectedTalks function///");
-            if (c == null)
+            if (c == null || !c.IsOpen)
                 return FunctionResult.ConnectionError();
             
             var login = call["login"].SafeToObject<string>();
@@ -348,7 +348,7 @@ namespace FirstTry.API
             //  <talk> <speakerlogin> <start_timestamp> <title>       
             */
             Log("///Proposals function///");
-            if (c == null)
+            if (c == null || !c.IsOpen)
                 return FunctionResult.ConnectionError();
             
             var login = call["login"].SafeToObject<string>();
